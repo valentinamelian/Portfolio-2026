@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Valentina Melián — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&amp;family=Pinyon+Script&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,200;1,9..40,300&amp;display=swap" rel="stylesheet"/>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<link href="css/styles.css" rel="stylesheet"/></head>
+<body>
+<div id="cur"></div>
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+<span class="nav-logo">
+<span class="logo-star"></span>
+    Valentina Melián
+  </span>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#work">Work</a></li>
+<li><a class="nav-cta" href="#contact">Let's talk</a></li>
+</ul>
+</nav>
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+<div class="hero-ghost">Creative</div>
+<!-- acid airbrush blobs -->
+<div class="hero-blob" style="width:550px;height:550px;background:radial-gradient(ellipse, rgba(208,255,164,.2),transparent 70%);top:-100px;right:-80px;"></div>
+<div class="hero-blob" style="width:400px;height:400px;background:radial-gradient(ellipse, rgba(0,110,233,.15),transparent 70%);bottom:-80px;right:25%;"></div>
+<div class="hero-blob" style="width:300px;height:300px;background:radial-gradient(ellipse, rgba(232,160,255,.18),transparent 70%);bottom:10%;left:5%;"></div>
+<!-- Whimsy frame – redrawn for dark bg -->
+<svg class="hero-frame" fill="none" viewbox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+<circle cx="160" cy="160" opacity=".3" r="148" stroke="#D0FFA4" stroke-dasharray="5 4" stroke-width="1"></circle>
+<circle cx="160" cy="160" opacity=".2" r="110" stroke="#006EE9" stroke-width=".7"></circle>
+<circle cx="160" cy="160" fill="#D0FFA4" opacity=".5" r="7"></circle>
+<ellipse cx="160" cy="136" fill="#D0FFA4" opacity=".35" rx="6" ry="15"></ellipse>
+<ellipse cx="160" cy="184" fill="#D0FFA4" opacity=".35" rx="6" ry="15"></ellipse>
+<ellipse cx="136" cy="160" fill="#D0FFA4" opacity=".35" rx="15" ry="6"></ellipse>
+<ellipse cx="184" cy="160" fill="#D0FFA4" opacity=".35" rx="15" ry="6"></ellipse>
+<ellipse cx="143" cy="143" fill="#006EE9" opacity=".25" rx="6" ry="14" transform="rotate(-45 143 143)"></ellipse>
+<ellipse cx="177" cy="143" fill="#006EE9" opacity=".25" rx="6" ry="14" transform="rotate(45 177 143)"></ellipse>
+<ellipse cx="143" cy="177" fill="#006EE9" opacity=".25" rx="6" ry="14" transform="rotate(45 143 177)"></ellipse>
+<ellipse cx="177" cy="177" fill="#006EE9" opacity=".25" rx="6" ry="14" transform="rotate(-45 177 177)"></ellipse>
+<path d="M160 12L161.5 17 166 15.5 162.5 19 166 22.5 161.5 21 160 26 158.5 21 154 22.5 157.5 19 154 15.5 158.5 17Z" fill="#D0FFA4" opacity=".6"></path>
+<path d="M308 160L309.5 165 314 163.5 310.5 167 314 170.5 309.5 169 308 174 306.5 169 302 170.5 305.5 167 302 163.5 306.5 165Z" fill="#006EE9" opacity=".6"></path>
+<path d="M160 294L161.5 299 166 297.5 162.5 301 166 304.5 161.5 303 160 308 158.5 303 154 304.5 157.5 301 154 297.5 158.5 299Z" fill="#D0FFA4" opacity=".5"></path>
+<path d="M12 160L13.5 165 18 163.5 14.5 167 18 170.5 13.5 169 12 174 10.5 169 6 170.5 9.5 167 6 163.5 10.5 165Z" fill="#006EE9" opacity=".5"></path>
+<!-- butterfly outline -->
+<path d="M112 52 C106 45 98 47 100 55 C102 63 112 62 112 67 C112 62 122 63 124 55 C126 47 118 45 112 52Z" fill="none" opacity=".5" stroke="#D0FFA4" stroke-width="1"></path>
+<circle cx="112" cy="67" fill="#006EE9" opacity=".6" r="1.5"></circle>
+<path d="M218 258 C212 251 204 253 206 261 C208 269 218 268 218 273 C218 268 228 269 230 261 C232 253 224 251 218 258Z" fill="none" opacity=".45" stroke="#006EE9" stroke-width="1"></path>
+<circle cx="218" cy="273" fill="#D0FFA4" opacity=".5" r="1.5"></circle>
+</svg>
+<!-- Floating whimsy deco – lime/pink on dark -->
+<svg class="float" fill="none" style="--rot:-5deg;position:absolute;left:5%;top:18%;width:42px;opacity:.4;pointer-events:none;z-index:2;" viewbox="0 0 44 44">
+<path d="M22 3L24.5 16 37 11 28 22 38 30 24.5 26 27 39 22 28 17 39 19.5 26 6 30 16 22 7 11 19.5 16Z" fill="none" stroke="#D0FFA4" stroke-width="1.5"></path>
+</svg>
+<svg class="twinkle" fill="none" style="--rot:10deg;position:absolute;left:10%;top:65%;width:22px;opacity:.5;pointer-events:none;z-index:2;" viewbox="0 0 24 24">
+<path d="M12 1.5L13.5 8.5 20 7 15.5 12 20 17 13.5 15.5 12 22.5 10.5 15.5 4 17 8.5 12 4 7 10.5 8.5Z" fill="#E8A0FF" opacity=".9"></path>
+</svg>
+<!-- Rabbit floating -->
+<svg class="float2" fill="none" style="--rot:3deg;position:absolute;right:8%;bottom:22%;width:68px;opacity:.28;pointer-events:none;z-index:2;" viewbox="0 0 70 90">
+<path d="M22 40 C18 20 14 8 20 5 C26 2 28 14 28 28" fill="none" stroke="#D0FFA4" stroke-linecap="round" stroke-width="1.5"></path>
+<path d="M34 38 C32 18 36 6 42 7 C48 8 44 20 42 32" fill="none" stroke="#D0FFA4" stroke-linecap="round" stroke-width="1.5"></path>
+<ellipse cx="32" cy="58" fill="none" rx="18" ry="22" stroke="#006EE9" stroke-width="1.5"></ellipse>
+<circle cx="31" cy="38" fill="none" r="12" stroke="#006EE9" stroke-width="1.5"></circle>
+<circle cx="28" cy="36" fill="#D0FFA4" r="1.5"></circle>
+<circle cx="35" cy="36" fill="#D0FFA4" r="1.5"></circle>
+<path d="M30 40 L32 42 L34 40" fill="none" stroke="#D0FFA4" stroke-linecap="round" stroke-width="1"></path>
+<circle cx="50" cy="68" fill="none" r="5" stroke="#006EE9" stroke-width="1.2"></circle>
+<path d="M18 76 Q14 80 16 84" fill="none" stroke="#006EE9" stroke-linecap="round" stroke-width="1.2"></path>
+<path d="M46 76 Q50 80 48 84" fill="none" stroke="#006EE9" stroke-linecap="round" stroke-width="1.2"></path>
+</svg>
+<!-- Small flower -->
+<svg class="float3" fill="none" style="--rot:-8deg;position:absolute;right:2%;top:50%;width:48px;opacity:.35;pointer-events:none;z-index:2;" viewbox="0 0 50 50">
+<circle cx="25" cy="25" fill="#D0FFA4" r="4"></circle>
+<ellipse cx="25" cy="13" fill="#006EE9" opacity=".6" rx="5" ry="10"></ellipse>
+<ellipse cx="25" cy="37" fill="#006EE9" opacity=".6" rx="5" ry="10"></ellipse>
+<ellipse cx="13" cy="25" fill="#006EE9" opacity=".6" rx="10" ry="5"></ellipse>
+<ellipse cx="37" cy="25" fill="#006EE9" opacity=".6" rx="10" ry="5"></ellipse>
+<ellipse cx="16" cy="16" fill="#D0FFA4" opacity=".5" rx="5" ry="9" transform="rotate(-45 16 16)"></ellipse>
+<ellipse cx="34" cy="16" fill="#D0FFA4" opacity=".5" rx="5" ry="9" transform="rotate(45 34 16)"></ellipse>
+<ellipse cx="16" cy="34" fill="#D0FFA4" opacity=".5" rx="5" ry="9" transform="rotate(45 16 34)"></ellipse>
+<ellipse cx="34" cy="34" fill="#D0FFA4" opacity=".5" rx="5" ry="9" transform="rotate(-45 34 34)"></ellipse>
+</svg>
+<svg class="spin-slow" fill="none" style="position:absolute;left:50%;top:14%;width:30px;opacity:.25;pointer-events:none;margin-left:-15px;z-index:2;" viewbox="0 0 32 32">
+<path d="M16 2 L16 30 M2 16 L30 16 M5 5 L27 27 M27 5 L5 27" stroke="#D0FFA4" stroke-linecap="round" stroke-width="1.5"></path>
+</svg>
+<div class="hero-inner">
+<div class="hero-eyebrow">
+<span class="dot"></span>
+      Social Media Strategy · Content Creation · Brand Communication
+    </div>
+<h1 class="hero-h1">
+<span class="word w1">Valentina</span>
+</h1>
+<h2 class="hero-h2">
+<span class="word w3">Melián</span>
+</h2>
+<div class="hero-script">— Digital Strategist &amp; Content Creator</div>
+<div class="hero-bottom">
+<p class="hero-desc">I help brands build a coherent digital presence — from strategy and content planning to video editing and ad campaigns. 4+ years. 20+ brands. Argentina &amp; Andorra.</p>
+<div class="hero-actions">
+<a class="btn-lav" href="#work">See my work ↓</a>
+<a class="btn-ghost" href="#contact">Let's talk</a>
+</div>
+</div>
+<!-- Hero stats strip -->
+<div style="display:flex;gap:2.5rem;flex-wrap:wrap;margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(249,247,242,.08);opacity:0;animation:fadeUp .8s ease 1.3s forwards;">
+<div style="display:flex;flex-direction:column;gap:.2rem;">
+<span style="font-family:'Space Mono',monospace;font-size:2rem;font-weight:700;color:#D0FFA4;line-height:1;">20+</span>
+<span style="font-family:'Space Mono',monospace;font-size:.5rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(249,247,242,.35);">Brands worked with</span>
+</div>
+<div style="display:flex;flex-direction:column;gap:.2rem;">
+<span style="font-family:'Space Mono',monospace;font-size:2rem;font-weight:700;color:#E8A0FF;line-height:1;">4+</span>
+<span style="font-family:'Space Mono',monospace;font-size:.5rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(249,247,242,.35);">Years of experience</span>
+</div>
+<div style="display:flex;flex-direction:column;gap:.2rem;">
+<span style="font-family:'Space Mono',monospace;font-size:2rem;font-weight:700;color:#83E7FF;line-height:1;">6+</span>
+<span style="font-family:'Space Mono',monospace;font-size:.5rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(249,247,242,.35);">Industries served</span>
+</div>
+</div>
+</div>
+<div class="hero-badge">Available for remote work<br/>Argentina · Germany · Europe</div>
+</section>
+<!-- ═══ MARQUEE ═══ -->
+<div class="marquee-wrap">
+<div class="marquee-track">
+<span class="m-item">Social Media Management</span><span class="m-star" style="color:#E8A0FF">✿</span>
+<span class="m-item">Content Creation</span><span class="m-star" style="color:#83E7FF">✦</span>
+<span class="m-item">Branding</span><span class="m-star" style="color:#E8A0FF">✿</span>
+<span class="m-item">Video Editing</span><span class="m-star" style="color:#83E7FF">✦</span>
+<span class="m-item">Copywriting</span><span class="m-star" style="color:#E8A0FF">✿</span>
+<span class="m-item">Digital Strategy</span><span class="m-star" style="color:#83E7FF">✦</span>
+<span class="m-item">Advertising Campaigns</span><span class="m-star" style="color:#E8A0FF">✿</span>
+<span class="m-item">Social Media Management</span><span class="m-star" style="color:#83E7FF">✦</span>
+<span class="m-item">Content Creation</span><span class="m-star" style="color:#E8A0FF">✿</span>
+<span class="m-item">Branding</span><span class="m-star" style="color:#83E7FF">✦</span>
+<span class="m-item">Video Editing</span><span class="m-star" style="color:#E8A0FF">✿</span>
+<span class="m-item">Copywriting</span><span class="m-star" style="color:#83E7FF">✦</span>
+<span class="m-item">Digital Strategy</span><span class="m-star" style="color:#E8A0FF">✿</span>
+<span class="m-item">Advertising Campaigns</span><span class="m-star" style="color:#83E7FF">✦</span>
+</div>
+</div>
+<!-- ═══ ABOUT ═══ -->
+<section class="about-section" id="about">
+<div class="about-left rev-l">
+<!-- floating whimsy deco adapted for dark -->
+<svg class="float" fill="none" style="--rot:5deg;position:absolute;right:3rem;top:5rem;width:52px;opacity:.3;pointer-events:none;" viewbox="0 0 55 55">
+<circle cx="27.5" cy="27.5" fill="#D0FFA4" opacity=".7" r="5"></circle>
+<ellipse cx="27.5" cy="14" fill="#006EE9" opacity=".5" rx="5.5" ry="11"></ellipse>
+<ellipse cx="27.5" cy="41" fill="#006EE9" opacity=".5" rx="5.5" ry="11"></ellipse>
+<ellipse cx="14" cy="27.5" fill="#006EE9" opacity=".5" rx="11" ry="5.5"></ellipse>
+<ellipse cx="41" cy="27.5" fill="#006EE9" opacity=".5" rx="11" ry="5.5"></ellipse>
+</svg>
+<svg class="float3" fill="none" style="--rot:-3deg;position:absolute;right:2rem;bottom:5rem;width:42px;opacity:.2;pointer-events:none;" viewbox="0 0 70 90">
+<path d="M22 40 C18 20 14 8 20 5 C26 2 28 14 28 28" fill="none" stroke="#D0FFA4" stroke-linecap="round" stroke-width="1.5"></path>
+<path d="M34 38 C32 18 36 6 42 7 C48 8 44 20 42 32" fill="none" stroke="#D0FFA4" stroke-linecap="round" stroke-width="1.5"></path>
+<circle cx="31" cy="38" fill="none" r="12" stroke="#006EE9" stroke-width="1.5"></circle>
+<ellipse cx="32" cy="58" fill="none" rx="18" ry="22" stroke="#006EE9" stroke-width="1.5"></ellipse>
+<circle cx="28" cy="36" fill="#D0FFA4" r="1.5"></circle>
+<circle cx="35" cy="36" fill="#D0FFA4" r="1.5"></circle>
+</svg>
+<div>
+<div class="sec-lbl" style="color:rgba(249,247,242,.35)">About me</div>
+<h2 class="about-title">Hello,<br/>I'm <span style="font-family:'Space Mono',monospace;font-size:.75em;font-style:normal;letter-spacing:-.04em;">Valentina.</span><br/><em>Nice to meet you.</em></h2>
+<p class="about-text">I'm a Social Media Strategist, Video Editor, and Content Creator — with a degree in Social Communication and 4+ years working with creative agencies, entrepreneurs, artists, and growing businesses across Argentina, Andorra, and beyond.<br/><br/>I don't just post content. I build communication systems: strategy, planning, voice, visuals, and metrics — all aligned with each brand's goals. Whether a startup needs to find its audience or an established brand needs a refresh, I bring both the creative and the critical thinking.</p>
+</div>
+<!-- Foto creativa de Valentina -->
+<div style="position:absolute;right:2rem;bottom:9rem;z-index:3;width:180px;">
+<!-- marco asimétrico con rotación -->
+<div style="position:relative;transform:rotate(2deg);">
+<!-- fondo decorativo offset -->
+<div style="position:absolute;top:6px;left:6px;width:100%;height:100%;background:#D0FFA4;z-index:0;"></div>
+<!-- imagen -->
+<div style="position:relative;z-index:1;overflow:hidden;aspect-ratio:3/4;">
+<img alt="Valentina Melián" src="images/profile.jpg" style="width:100%;height:100%;object-fit:cover;object-position:top;display:block;"/>
+</div>
+<!-- nombre escrito encima estilo brush -->
+<div style="position:absolute;top:-1.2rem;left:-.5rem;z-index:2;
+      font-family:'Pinyon Script',cursive;font-size:1.4rem;font-weight:400;
+      color:#D0FFA4;white-space:nowrap;letter-spacing:.02em;
+      text-shadow:1px 1px 0 #000181;">Valentina ✦</div>
+</div>
+</div>
+<div class="stats">
+<div><div class="stat-n">20+</div><div class="stat-l">Brands worked with</div></div>
+<div><div class="stat-n">4+</div><div class="stat-l">Years experience</div></div>
+<div><div class="stat-n">4</div><div class="stat-l">Countries</div></div>
+</div>
+</div>
+<div class="about-right rev-r">
+<div class="sec-lbl">Experience</div>
+<div class="exp-row"><div><div class="exp-name">Freelance</div><div class="exp-sub">Content planning · Video editing</div></div><div class="exp-yr">2024 – Now</div></div>
+<div class="exp-row"><div><div class="exp-name">Elemental W</div><div class="exp-sub">Content planning · Copy editing · Task coordination</div></div><div class="exp-yr">2024–25</div></div>
+<div class="exp-row"><div><div class="exp-name">CC Comunicación</div><div class="exp-sub">Social media strategy · Ad campaigns · Video creation</div></div><div class="exp-yr">2022–24</div></div>
+<div class="exp-row"><div><div class="exp-name">M&amp;R Asociados</div><div class="exp-sub">Content planning and creation</div></div><div class="exp-yr">2022</div></div>
+<div class="exp-row"><div><div class="exp-name">Rock &amp; Arte</div><div class="exp-sub">Scriptwriting · Video editing for social media</div></div><div class="exp-yr">2021–22</div></div>
+<div class="exp-row"><div><div class="exp-name">ITU — Instructor</div><div class="exp-sub">"CapCut from Scratch" · Marketing for Entrepreneurs</div></div><div class="exp-yr">2022–25</div></div>
+<div style="margin-top:2.5rem;">
+<div class="sec-lbl">Education</div>
+<div class="exp-row"><div><div class="exp-name">Bachelor's in Social Communication</div><div class="exp-sub">National University of Cuyo</div></div><div class="exp-yr">2016–23</div></div>
+<div class="exp-row"><div><div class="exp-name">Google Digital Marketing</div><div class="exp-sub">Foundations · Attract &amp; Engage · From Likes to Leads</div></div><div class="exp-yr">2024</div></div>
+<div style="margin-top:2rem;padding:1.3rem 0;border-top:1px solid var(--black);">
+<div class="sec-lbl" style="margin-bottom:.8rem;">Languages</div>
+<div style="display:flex;gap:.5rem;flex-wrap:wrap;">
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;letter-spacing:.08em;background:#D0FFA4;color:var(--black);padding:.3rem .8rem;">Spanish — Native</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;letter-spacing:.08em;background:#E8A0FF;color:var(--black);padding:.3rem .8rem;">English — Advanced</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;letter-spacing:.08em;background:#83E7FF;color:var(--black);padding:.3rem .8rem;">German — Beginner</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ═══ SERVICES ═══ -->
+<section class="svc-section" id="services">
+<div class="svc-header reveal">
+<div class="sec-lbl" style="margin-bottom:0">What I do</div>
+<span style="font-family:'Space Mono',monospace;font-size:.58rem;color:var(--gray-2);letter-spacing:.1em;font-weight:400;">End-to-end digital communication ✦</span>
+</div>
+<div class="svc-row reveal d1"><span class="svc-num">01</span><span class="svc-name">Social Media Strategy</span><span class="svc-tag">Brief · Diagnosis · Communication Plan</span></div>
+<div class="svc-row reveal d2"><span class="svc-name">Content Planning &amp; Creation</span><span class="svc-num" style="order:-1">02</span><span class="svc-tag">Posts · Reels · Stories · Campaigns</span></div>
+<div class="svc-row reveal d3"><span class="svc-num">03</span><span class="svc-name">Video Editing</span><span class="svc-tag">Short-form · CapCut · Premiere Pro</span></div>
+<div class="svc-row reveal d1"><span class="svc-num">04</span><span class="svc-name">Brand Voice &amp; Copywriting</span><span class="svc-tag">Tone · Copy · Web · Blog</span></div>
+<div class="svc-row reveal d2"><span class="svc-num">05</span><span class="svc-name">Advertising Campaigns</span><span class="svc-tag">Meta · Creatives · Audience Strategy</span></div>
+<div class="svc-row reveal d3"><span class="svc-num">06</span><span class="svc-name">Content Scheduling &amp; Analytics</span><span class="svc-tag">HubSpot · Metricool · Notion</span></div>
+</section>
+<!-- ═══ WORK ═══ -->
+<section class="work-section" id="work">
+<div class="work-header reveal">
+<div class="sec-lbl" style="margin-bottom:0">Selected work</div>
+<a href="https://www.behance.net/valentinamelian4" target="_blank">View all on Behance →</a>
+</div>
+<div class="work-grid">
+<div class="wc reveal" id="card-planning" onclick="toggleCard('planning')">
+<div class="wc-inner">
+<svg class="wc-icon" fill="none" viewbox="0 0 36 36"><path d="M6 8 L30 8 M6 14 L30 14 M6 20 L22 20" stroke="#000181" stroke-linecap="round" stroke-width="1.5"></path><path d="M24 22 C24 22 26 24 28 24 C30 24 32 22 32 22" fill="none" stroke="#006EE9" stroke-linecap="round" stroke-width="1.5"></path><circle cx="26" cy="28" fill="none" r="5" stroke="#006EE9" stroke-width="1.2"></circle></svg>
+<div class="wc-num">01 ——</div>
+<div class="wc-title">Strategy &amp; Communication Planning</div>
+<div class="wc-sub">Research · Brand Diagnosis · Content Pillars</div>
+<button class="wc-btn" id="btn-planning" onclick="event.stopPropagation();toggleCard('planning')">Open ↓</button>
+</div>
+</div>
+<div class="wc reveal d1" id="card-scheduling" onclick="toggleCard('scheduling')">
+<div class="wc-inner">
+<svg class="wc-icon" fill="none" viewbox="0 0 36 36"><rect height="24" rx="3" stroke="#000181" stroke-width="1.5" width="26" x="5" y="8"></rect><path d="M5 14 L31 14" stroke="#000181" stroke-width="1.2"></path><path d="M12 5 L12 11 M24 5 L24 11" stroke="#006EE9" stroke-linecap="round" stroke-width="1.5"></path><circle cx="13" cy="20" fill="#006EE9" r="1.5"></circle><circle cx="18" cy="20" fill="#006EE9" r="1.5"></circle><circle cx="23" cy="20" fill="#000181" r="1.5"></circle></svg>
+<div class="wc-num">02 ——</div>
+<div class="wc-title">Content Calendar &amp; Scheduling</div>
+<div class="wc-sub">HubSpot · Metricool · Meta · Notion</div>
+<button class="wc-btn" id="btn-scheduling" onclick="event.stopPropagation();toggleCard('scheduling')">Open ↓</button>
+</div>
+</div>
+<div class="wc reveal d2" id="card-video" onclick="toggleCard('video')">
+<div class="wc-inner">
+<svg class="wc-icon" fill="none" viewbox="0 0 36 36"><rect height="20" rx="3" stroke="#000181" stroke-width="1.5" width="22" x="3" y="8"></rect><path d="M25 14 L33 10 L33 26 L25 22Z" fill="none" stroke="#006EE9" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+<div class="wc-num">03 ——</div>
+<div class="wc-title">Video Editing</div>
+<div class="wc-sub">Short-form · CapCut · Premiere Pro</div>
+<button class="wc-btn" id="btn-video" onclick="event.stopPropagation();toggleCard('video')">Open ↓</button>
+</div>
+</div>
+<div class="wc reveal d1" id="card-content" onclick="toggleCard('content')">
+<div class="wc-inner">
+<svg class="wc-icon" fill="none" viewbox="0 0 36 36"><rect height="10" rx="2" stroke="#006EE9" stroke-width="1.5" width="10" x="5" y="5"></rect><rect height="10" rx="2" stroke="#000181" stroke-width="1.5" width="10" x="21" y="5"></rect><rect height="10" rx="2" stroke="#000181" stroke-width="1.5" width="10" x="5" y="21"></rect><rect height="10" rx="2" stroke="#006EE9" stroke-width="1.5" width="10" x="21" y="21"></rect></svg>
+<div class="wc-num">04 ——</div>
+<div class="wc-title">Content Creation</div>
+<div class="wc-sub">Visual identity · Posts · Reels</div>
+<button class="wc-btn" id="btn-content" onclick="event.stopPropagation();toggleCard('content')">Open ↓</button>
+</div>
+</div>
+<div class="wc reveal d2" id="card-ads" onclick="toggleCard('ads')">
+<div class="wc-inner">
+<svg class="wc-icon" fill="none" viewbox="0 0 36 36"><path d="M6 28 L12 14 L18 22 L22 16 L30 28Z" fill="none" stroke="#000181" stroke-linejoin="round" stroke-width="1.5"></path><circle cx="27" cy="10" fill="none" r="4" stroke="#006EE9" stroke-width="1.5"></circle></svg>
+<div class="wc-num">05 ——</div>
+<div class="wc-title">Advertising Campaigns</div>
+<div class="wc-sub">Meta · Ad creatives · Copy</div>
+<button class="wc-btn" id="btn-ads" onclick="event.stopPropagation();toggleCard('ads')">Open ↓</button>
+</div>
+</div>
+<div class="wc reveal d3" id="card-web" onclick="toggleCard('web')">
+<div class="wc-inner">
+<svg class="wc-icon" fill="none" viewbox="0 0 36 36"><rect height="24" rx="3" stroke="#000181" stroke-width="1.5" width="28" x="4" y="6"></rect><path d="M4 12 L32 12" stroke="#000181" stroke-width="1"></path><circle cx="9" cy="9" fill="#006EE9" r="1.5"></circle><circle cx="14" cy="9" fill="#000181" r="1.5"></circle><path d="M10 18 L26 18 M10 22 L22 22" stroke="#000181" stroke-linecap="round" stroke-width="1.2"></path></svg>
+<div class="wc-num">06 ——</div>
+<div class="wc-title">Web Content &amp; Copywriting</div>
+<div class="wc-sub">Sitemap · UX copy · Blog</div>
+<button class="wc-btn" id="btn-web" onclick="event.stopPropagation();toggleCard('web')">Open ↓</button>
+</div>
+</div>
+</div>
+<!-- SHARED PANEL -->
+<div class="work-panel" id="work-panel">
+<div class="pc" id="panel-planning" style="display:none">
+<div class="panel-strip"><div style="display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;"><span class="ps-title">Planning Strategies &amp; Content</span><span class="ps-tag">Strategy · Planning</span></div><button class="ps-close" onclick="closePanel()">Close ✕</button></div>
+<div class="panel-body">
+<p class="panel-desc">After defining the communication direction, I develop content strategies tailored to each platform and audience.<ul><li>Defining content pillars and identifying relevant topics and storytelling opportunities</li><li>Aligning content with marketing and communication goals</li><li>Creating ideas for posts, short-form videos, and campaigns</li></ul></p>
+<!-- MDZ Internet -->
+<div class="cb" style="margin-top:2.5rem;">
+<div class="cb-head"><span class="cb-name">MDZ Internet</span><span class="cb-tag">Social Media Management</span></div>
+<div class="cb-body">
+<div style="margin-bottom:1.8rem;">
+<div class="col-lbl" style="margin-bottom:.8rem;">Feed example</div>
+<img alt="MDZ Internet feed" src="images/mdz_feed.png" style="width:100%;display:block;"/>
+</div>
+<div style="display:grid;grid-template-columns:200px 1fr;gap:1.5rem;align-items:start;">
+<div style="display:flex;flex-direction:column;gap:.8rem;">
+<div><div class="col-lbl">Brand Tone and Voice</div><p style="font-size:.8rem;color:#3A3A8A;line-height:1.7;margin-top:.3rem;">Young, approachable, fun.</p></div>
+<div id="cs-mdz_c" style="position:relative;overflow:hidden;width:100%;"><div class="cs-slide" style="display:block;"><img alt="" src="images/embedded_4.jpg" style="width:100%;display:block;"/></div><div class="cs-slide" style="display:none;"><img alt="" src="images/embedded_5.jpg" style="width:100%;display:block;"/></div></div>
+</div>
+<div><div class="copy-ph" style="font-style:normal;font-size:.82rem;line-height:1.9;">If you still don't have good plans, we've got you covered! 😎<br/><br/>🚀 Switch to the fastest fiber optic internet in Mendoza! 🚀<br/><br/>Inquire about availability in your area 📲</div></div>
+</div>
+</div></div>
+<!-- Carlos Manduca -->
+<div class="cb" style="margin-top:1.8rem;">
+<div class="cb-head"><span class="cb-name">Carlos Manduca</span><span class="cb-tag">Brand Redesign · Social Media</span></div>
+<div class="cb-body">
+<div style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:1rem;margin-bottom:1.8rem;">
+<div><div class="col-lbl" style="margin-bottom:.5rem;">Before</div><div style="aspect-ratio:4/5;overflow:hidden;"><img alt="" src="images/embedded_6.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div></div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:.3rem;"><svg fill="none" height="44" viewbox="0 0 48 48" width="44"><path d="M8 24H36M28 14L40 24L28 34" stroke="#D0FFA4" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg><span style="font-family:'Space Mono',monospace;font-size:.44rem;letter-spacing:.14em;text-transform:uppercase;color:#7A7AC0;">before / after</span></div>
+<div><div class="col-lbl" style="margin-bottom:.5rem;">After</div><div style="aspect-ratio:4/5;overflow:hidden;"><img alt="" src="images/embedded_7.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div></div>
+</div>
+<div style="display:grid;grid-template-columns:200px 1fr;gap:1.5rem;align-items:start;">
+<div style="display:flex;flex-direction:column;gap:.8rem;">
+<div><div class="col-lbl">Brand Tone and Voice</div><p style="font-size:.8rem;color:#3A3A8A;line-height:1.7;margin-top:.3rem;">Casual, familiar, serious.</p></div>
+<div id="cs-cm_c" style="position:relative;overflow:hidden;width:100%;"><div class="cs-slide" style="display:block;"><img alt="" src="images/embedded_8.jpg" style="width:100%;display:block;"/></div><div class="cs-slide" style="display:none;"><img alt="" src="images/embedded_9.jpg" style="width:100%;display:block;"/></div><div class="cs-slide" style="display:none;"><img alt="" src="images/embedded_10.jpg" style="width:100%;display:block;"/></div></div>
+</div>
+<div><div class="copy-ph" style="font-style:normal;font-size:.82rem;line-height:1.9;">💧 Did you know that toilets require 8 to 10 liters per flush? If a person uses the bathroom an average of 4 times a day, they will have used 40 liters 👎<br/><br/>✅ Dual flush toilets can reduce water consumption by 50%, using a maximum of between 4.5 and 6 liters of water per flush<br/><br/>How does it work?<br/>🔹 Partial flush: for solids, releases all the water<br/>🔹 Full flush: for liquids, releases half the water<br/><br/>Ask us about eco-friendly toilets and let's keep saving water 💪</div></div>
+</div>
+</div></div>
+<!-- María Jimena Martínez -->
+<div class="cb" style="margin-top:1.8rem;">
+<div class="cb-head"><span class="cb-name">María Jimena Martínez</span><span class="cb-tag">Social Media Management</span></div>
+<div class="cb-body">
+<div style="margin-bottom:1.8rem;">
+<div class="col-lbl" style="margin-bottom:.8rem;">Feed example</div>
+<img alt="María Jimena Martínez feed" src="images/jimena_feed.png" style="width:100%;display:block;"/>
+</div>
+<div style="display:grid;grid-template-columns:200px 1fr;gap:1.5rem;align-items:start;">
+<div style="display:flex;flex-direction:column;gap:.8rem;">
+<div><div class="col-lbl">Brand Tone and Voice</div><p style="font-size:.8rem;color:#3A3A8A;line-height:1.7;margin-top:.3rem;">Relaxed, approachable, holistic</p></div>
+<div id="cs-jm_c" style="position:relative;overflow:hidden;width:100%;"><div class="cs-slide" style="display:block;"><img alt="" src="images/jimena_carrusel1.png" style="width:100%;display:block;"/></div><div class="cs-slide" style="display:none;"><img alt="" src="images/jimena_carrusel2.png" style="width:100%;display:block;"/></div></div>
+</div>
+<div><div class="copy-ph" style="font-style:normal;font-size:.82rem;line-height:1.9;">Hey there! 👋 I hope you're having a great day.<br/><br/>Just dropping by to share a quote from one of my favorite authors, Eckhart Tolle.<br/><br/>📖 Have you read any of his books? If you swipe left, you can see my recommendation. Hope you enjoy it! 🤗</div></div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="pc" id="panel-scheduling" style="display:none">
+<div class="panel-strip"><div style="display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;"><span class="ps-title">Scheduling</span><span class="ps-tag">Content Calendars</span></div><button class="ps-close" onclick="closePanel()">Close ✕</button></div>
+<div class="panel-body">
+<p class="panel-desc">I develop structured content calendars that define what will be published, when, and on which platforms. I work with HubSpot, Metricool, Meta Business Suite, and Notion.</p>
+<div class="cb">
+<div class="cb-head"><span class="cb-name">SYMI Estética</span><span class="cb-tag">Content Planning · Scheduling</span></div>
+<div class="cb-body">
+<!-- Layout: type+objectives top, then calendar+feed below -->
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-bottom:1.8rem;">
+<div>
+<div class="col-lbl" style="margin-bottom:.8rem;">Type of content</div>
+<div style="display:flex;flex-wrap:wrap;gap:.5rem;">
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#D0FFA4;color:#000181;padding:.3rem .8rem;">Services / Product</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#E8A0FF;color:#000181;padding:.3rem .8rem;">Institutional</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#83E7FF;color:#000181;padding:.3rem .8rem;">Value-added content</span>
+</div>
+</div>
+<div>
+<div class="col-lbl" style="margin-bottom:.8rem;">Objectives</div>
+<div style="display:flex;flex-wrap:wrap;gap:.5rem;">
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#D0FFA4;color:#000181;padding:.3rem .8rem;">💰 Sales</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#000181;color:#D0FFA4;padding:.3rem .8rem;">🚀 Reach</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#E8A0FF;color:#000181;padding:.3rem .8rem;">🤝 Customer Loyalty</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#83E7FF;color:#000181;padding:.3rem .8rem;">📊 Engagement</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;border:1.5px solid #000181;color:#000181;padding:.3rem .8rem;">📚 Educate</span>
+</div>
+</div>
+</div>
+<!-- Calendar grid + feed preview side by side -->
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;">
+<!-- calendar table -->
+<div>
+<div class="col-lbl" style="margin-bottom:.8rem;">Content calendar — February</div>
+<table style="width:100%;border-collapse:collapse;font-family:'Space Mono',monospace;font-size:.65rem;">
+<thead>
+<tr>
+<th style="background:#000181;color:#D0FFA4;padding:.5rem;text-align:left;font-size:.55rem;letter-spacing:.1em;">POST</th>
+<th style="background:#000181;color:#D0FFA4;padding:.5rem;text-align:left;font-size:.55rem;letter-spacing:.1em;">DATE</th>
+<th style="background:#000181;color:#D0FFA4;padding:.5rem;text-align:left;font-size:.55rem;letter-spacing:.1em;">TYPE</th>
+<th style="background:#000181;color:#D0FFA4;padding:.5rem;text-align:left;font-size:.55rem;letter-spacing:.1em;">OBJECTIVE</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background:#F5F4EE;"><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">1. Symibox</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">07/02</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#D0FFA4;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Services</span></td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#D0FFA4;color:#000181;padding:.15rem .4rem;font-size:.52rem;">💰 Sales</span></td></tr>
+<tr style="background:#fff;"><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">2. Radiofrecuencia</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">10/02</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#D0FFA4;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Services</span></td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#000181;color:#D0FFA4;padding:.15rem .4rem;font-size:.52rem;">🚀 Reach</span></td></tr>
+<tr style="background:#F5F4EE;"><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">3. Errores piel</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">13/02</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#83E7FF;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Value-added</span></td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#83E7FF;color:#000181;padding:.15rem .4rem;font-size:.52rem;">📊 Engage</span></td></tr>
+<tr style="background:#fff;"><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">4. Orden skincare</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">15/02</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#83E7FF;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Value-added</span></td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#83E7FF;color:#000181;padding:.15rem .4rem;font-size:.52rem;">📚 Educate</span></td></tr>
+<tr style="background:#F5F4EE;"><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">5. Reel</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">17/02</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#D0FFA4;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Services</span></td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#000181;color:#D0FFA4;padding:.15rem .4rem;font-size:.52rem;">🚀 Reach</span></td></tr>
+<tr style="background:#fff;"><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">6. Pestañas lifting</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">20/02</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#83E7FF;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Value-added</span></td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#83E7FF;color:#000181;padding:.15rem .4rem;font-size:.52rem;">📚 Educate</span></td></tr>
+<tr style="background:#F5F4EE;"><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">7. Proceso cejas</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">22/02</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#D0FFA4;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Services</span></td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#D0FFA4;color:#000181;padding:.15rem .4rem;font-size:.52rem;">💰 Sales</span></td></tr>
+<tr style="background:#fff;"><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">8. Opiniones</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;">24/02</td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#E8A0FF;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Institutional</span></td><td style="padding:.5rem;border-bottom:1px solid #e0e0e0;"><span style="background:#E8A0FF;color:#000181;padding:.15rem .4rem;font-size:.52rem;">🤝 Loyalty</span></td></tr>
+<tr style="background:#F5F4EE;"><td style="padding:.5rem;">9. Reel</td><td style="padding:.5rem;">27/02</td><td style="padding:.5rem;"><span style="background:#D0FFA4;color:#000181;padding:.15rem .4rem;font-size:.52rem;">Services</span></td><td style="padding:.5rem;"><span style="background:#000181;color:#D0FFA4;padding:.15rem .4rem;font-size:.52rem;">🚀 Reach</span></td></tr>
+</tbody>
+</table>
+</div>
+<!-- feed preview -->
+<div>
+<div class="col-lbl" style="margin-bottom:.8rem;">Feed preview</div>
+<img alt="" src="images/embedded_11.jpg" style="width:100%;display:block;"/>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="pc" id="panel-video" style="display:none">
+<div class="panel-strip"><div style="display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;"><span class="ps-title">Video Editing</span><span class="ps-tag">Short-form · Reels</span></div><button class="ps-close" onclick="closePanel()">Close ✕</button></div>
+<div class="panel-body">
+<p class="panel-desc">Short-form video content edited for Instagram Reels, TikTok, and YouTube Shorts — combining storytelling, pacing, and visual rhythm.</p>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;"><div><div class="vid-lbl">Reel 01</div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669263?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 01">
+</iframe>
+</div></div><div><div class="vid-lbl">Reel 02</div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669141?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 02">
+</iframe>
+</div></div><div><div class="vid-lbl">Reel 03</div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669145?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 03">
+</iframe>
+</div></div><div><div class="vid-lbl">Reel 04</div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669451?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 04">
+</iframe>
+</div></div><div><div class="vid-lbl">Reel 05</div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669516?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 05">
+</iframe>
+</div></div><div><div class="vid-lbl">Reel 06</div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669496?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 06">
+</iframe>
+</div></div></div>
+<div class="more-wrap"><button class="more-btn" onclick="toggleMore(this)">More videos ↓</button></div>
+<div class="more-panel" id="more-vids">
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:1.5rem;"><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669315?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 07">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669483?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 08">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669401?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 09">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669511?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 10">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669353?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 11">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669266?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 12">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669252?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 13">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669220?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 14">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669143?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 15">
+</iframe>
+</div></div><div><div style="position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198669142?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Reel 16">
+</iframe>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="pc" id="panel-content" style="display:none">
+<div class="panel-strip">
+<div style="display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;">
+<span class="ps-title">Content Creation</span>
+<span class="ps-tag">Visual Identity</span>
+</div>
+<button class="ps-close" onclick="closePanel()">Close ✕</button>
+</div>
+<div class="panel-body">
+<p class="panel-desc">Original content designed from scratch — building cohesive visual identities for each brand, with a distinctive aesthetic, tone, and storytelling style.</p>
+<div class="cb" style="margin-bottom:2rem;">
+<div class="cb-head">
+<span class="cb-name">Cafetería Brand</span>
+<span class="cb-tag">Visual Identity</span>
+</div>
+<div class="cb-body" style="padding:0;">
+<img alt="" src="images/cafe_new.png" style="width:100%;display:block;"/>
+</div>
+</div>
+<div class="cb">
+<div class="cb-head">
+<span class="cb-name">Mental Health Brand</span>
+<span class="cb-tag">Visual Identity</span>
+</div>
+<div class="cb-body" style="padding:0;">
+<img alt="" src="images/health_care_new.png" style="width:100%;display:block;"/>
+</div>
+</div>
+</div>
+</div>
+<div class="pc" id="panel-ads" style="display:none">
+<div class="panel-strip"><div style="display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;"><span class="ps-title">Advertising Campaigns</span><span class="ps-tag">Meta · Creatives</span></div><button class="ps-close" onclick="closePanel()">Close ✕</button></div>
+<div class="panel-body">
+<p class="panel-desc">Experience supporting digital advertising campaigns designed to increase reach, engagement, and brand visibility — from ad creatives and visuals to copy adaptation.</p>
+<div class="cb">
+<div class="cb-head"><span class="cb-name">San Martín de Porres</span><span class="cb-tag">Ad Campaign</span></div>
+<div class="cb-body">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;">
+<div style="aspect-ratio:1;overflow:hidden;"><img alt="" src="images/embedded_14.jpg" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+<div style="display:flex;flex-direction:column;gap:1.2rem;">
+<p style="font-size:1rem;line-height:1.85;color:#000181;font-weight:400;">🌄 Descubra a beleza de Mendoza com nosso serviço de traslado exclusivo!</p>
+<p style="font-size:.92rem;line-height:1.85;color:#3A3A8A;font-weight:300;">🚐 Deixe-nos levá-lo aos destinos turísticos mais incríveis com conforto e estilo. 🍇✨</p>
+<p style="font-size:.92rem;line-height:1.85;color:#3A3A8A;font-weight:300;">¿Precisa de informações? Deixe-nos a sua mensagem! 📥</p>
+<!-- decorative tag strip -->
+<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.5rem;">
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#D0FFA4;color:#000181;padding:.35rem .9rem;">Meta Ads</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#000181;color:#D0FFA4;padding:.35rem .9rem;">Copywriting</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#E8A0FF;color:#000181;padding:.35rem .9rem;">Visual Design</span>
+<span style="font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;background:#83E7FF;color:#000181;padding:.35rem .9rem;">Brand Reach</span>
+</div>
+<!-- decorative dashed border box -->
+<div style="border:1.5px dashed rgba(0,1,129,.2);padding:1rem;margin-top:.3rem;">
+<p style="font-family:'Space Mono',monospace;font-size:.56rem;letter-spacing:.12em;text-transform:uppercase;color:#7A7AC0;line-height:1.9;">Platform — Meta (Facebook + Instagram)<br/>Format — Feed Post · Stories<br/>Language — Portuguese (BR)<br/>Goal — Brand awareness · Lead generation</p>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="pc" id="panel-web" style="display:none">
+<div class="panel-strip">
+<div style="display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;">
+<span class="ps-title">Web Content &amp; Copywriting</span>
+<span class="ps-tag">UX Copy · Blog</span>
+</div>
+<button class="ps-close" onclick="closePanel()">Close ✕</button>
+</div>
+<div class="panel-body">
+<p class="panel-desc">From information architecture to final copy — I develop web content that is clear, intentional, and aligned with the brand's voice and goals.</p>
+<!-- Manzano Adventure -->
+<div class="cb" style="margin-bottom:1.5rem;">
+<div class="cb-head">
+<span class="cb-name">Manzano Adventure</span>
+<a class="link-btn" href="https://manzanoadventure.com.ar/" target="_blank">↗ manzanoadventure.com.ar</a>
+</div>
+<div class="cb-body" style="padding:0;">
+<div style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198668751?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Manzano Adventure">
+</iframe>
+</div>
+</div>
+</div>
+<!-- E-bikes Argentina -->
+<div class="cb">
+<div class="cb-head">
+<span class="cb-name">E-bikes Argentina</span>
+<a class="link-btn" href="https://e-bikesargentina.com/blog/page/5/" target="_blank">↗ e-bikesargentina.com</a>
+</div>
+<div class="cb-body" style="padding:0;">
+<div style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;margin:0;padding:0;">
+<iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" frameborder="0" src="https://player.vimeo.com/video/1198668752?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="E-bikes Argentina">
+</iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ═══ PROCESS ═══ -->
+<section style="border-top:1px solid var(--black);background:var(--bone);padding:4rem 3.5rem;">
+<div class="reveal" style="margin-bottom:3rem;">
+<div class="sec-lbl" style="margin-bottom:.8rem;">My process</div>
+<p style="font-size:.85rem;color:var(--gray);max-width:560px;line-height:1.9;">Every project starts with listening. Then comes research, strategy, and execution. This is what makes the difference between content that fills a feed and content that actually works for a brand.</p>
+</div>
+<div class="reveal" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--black);">
+<div style="padding:2rem 1.6rem;border-right:1px solid var(--black);">
+<div style="font-family:'Space Mono',monospace;font-size:.5rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gray-2);margin-bottom:.7rem;">01</div>
+<div style="font-family:'Space Mono',monospace;font-weight:700;font-size:.82rem;color:var(--black);margin-bottom:.5rem;text-transform:uppercase;letter-spacing:-.02em;">Brief &amp; Research</div>
+<div style="font-size:.76rem;color:var(--gray);line-height:1.7;">I study the brand, its audience, competitors, and current digital presence before touching anything.</div>
+</div>
+<div style="padding:2rem 1.6rem;border-right:1px solid var(--black);background:var(--black);">
+<div style="font-family:'Space Mono',monospace;font-size:.5rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(208,255,164,.3);margin-bottom:.7rem;">02</div>
+<div style="font-family:'Space Mono',monospace;font-weight:700;font-size:.82rem;color:#D0FFA4;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:-.02em;">Strategy</div>
+<div style="font-size:.76rem;color:rgba(249,247,242,.4);line-height:1.7;">Objectives, brand voice, content pillars, target audience — a roadmap before a single post goes live.</div>
+</div>
+<div style="padding:2rem 1.6rem;border-right:1px solid var(--black);">
+<div style="font-family:'Space Mono',monospace;font-size:.5rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gray-2);margin-bottom:.7rem;">03</div>
+<div style="font-family:'Space Mono',monospace;font-weight:700;font-size:.82rem;color:var(--black);margin-bottom:.5rem;text-transform:uppercase;letter-spacing:-.02em;">Creation</div>
+<div style="font-size:.76rem;color:var(--gray);line-height:1.7;">Copy, design, video — produced in-house and adapted to each platform's format and algorithm.</div>
+</div>
+<div style="padding:2rem 1.6rem;background:var(--black);">
+<div style="font-family:'Space Mono',monospace;font-size:.5rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(232,160,255,.3);margin-bottom:.7rem;">04</div>
+<div style="font-family:'Space Mono',monospace;font-weight:700;font-size:.82rem;color:#E8A0FF;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:-.02em;">Publish &amp; Iterate</div>
+<div style="font-size:.76rem;color:rgba(249,247,242,.4);line-height:1.7;">Scheduling, monitoring, and data-informed adjustments. The work doesn't end at publish.</div>
+</div>
+</div>
+</section>
+<section class="brands-section reveal">
+<div class="brands-ghost">Brands</div>
+<svg class="twinkle2" fill="none" style="position:absolute;top:2rem;right:5rem;width:28px;opacity:.35;pointer-events:none;z-index:1;" viewbox="0 0 30 30"><path d="M15 2L16.5 11 26 8.5 19.5 15 26 21.5 16.5 19 15 28 13.5 19 4 21.5 10.5 15 4 8.5 13.5 11Z" fill="#D0FFA4"></path></svg>
+<svg class="twinkle" fill="none" style="position:absolute;bottom:2.5rem;left:6rem;width:20px;opacity:.3;pointer-events:none;z-index:1;" viewbox="0 0 22 22"><path d="M11 1.5L12.5 8 19.5 7 14 11 19.5 15 12.5 14 11 20.5 9.5 14 2.5 15 8 11 2.5 7 9.5 8Z" fill="#E8A0FF"></path></svg>
+<div class="sec-lbl" style="margin-bottom:2rem;">Brands &amp; clients I've worked with</div>
+<div class="brands-grid">
+<span class="brand-pill">SYMI Estética</span><span class="brand-pill">MDZ Internet</span>
+<span class="brand-pill">Manzano Adventure</span><span class="brand-pill">Carlos Manduca</span>
+<span class="brand-pill">Rock &amp; Arte</span><span class="brand-pill">Conexión Marazunda</span>
+<span class="brand-pill">Atur Propiedades</span><span class="brand-pill">M&amp;R Asociados</span>
+<span class="brand-pill">E-bikes Argentina</span><span class="brand-pill">Custom Bike</span>
+<span class="brand-pill">INNovo</span><span class="brand-pill">El Oro Negro</span>
+<span class="brand-pill">Casa Andy</span><span class="brand-pill">Italmaq</span>
+<span class="brand-pill">Casa Farina</span><span class="brand-pill">TRICS Lab</span>
+<span class="brand-pill">HÄLSA</span><span class="brand-pill">Casa Abril</span>
+<span class="brand-pill">Dra. Alejandra Torres</span><span class="brand-pill">Oral Salud</span>
+<span class="brand-pill">Fun!</span><span class="brand-pill">Mendoza Stay</span>
+<span class="brand-pill">Dr. Osvaldo Guzmán</span>
+<span class="brand-pill">San Martín de Porres</span>
+<span class="brand-pill">Clínica Privada de Ojos Dra. Mulet</span>
+</div>
+</section>
+<!-- ═══ CONTACT ═══ -->
+<section class="contact-section" id="contact">
+<div class="contact-left rev-l">
+<svg class="float" fill="none" style="--rot:6deg;position:absolute;top:3rem;right:2rem;width:56px;opacity:.2;pointer-events:none;" viewbox="0 0 60 60">
+<circle cx="30" cy="30" fill="#D0FFA4" opacity=".8" r="6"></circle>
+<ellipse cx="30" cy="15" fill="#006EE9" opacity=".6" rx="6" ry="12"></ellipse>
+<ellipse cx="30" cy="45" fill="#006EE9" opacity=".6" rx="6" ry="12"></ellipse>
+<ellipse cx="15" cy="30" fill="#006EE9" opacity=".6" rx="12" ry="6"></ellipse>
+<ellipse cx="45" cy="30" fill="#006EE9" opacity=".6" rx="12" ry="6"></ellipse>
+</svg>
+<div>
+<h2 class="contact-title">Let's build<br/><span>something real.</span></h2>
+<p class="contact-desc">If you're looking for someone who can think strategically, execute creatively, and communicate clearly — I'd love to hear from you. I work remotely across time zones and I'm comfortable adapting to new teams, tools, and formats.</p>
+</div>
+<div class="c-details">
+<div><div class="c-lbl">Email</div><a class="c-val" href="mailto:valentinamelian97@gmail.com">valentinamelian97@gmail.com</a></div>
+<div><div class="c-lbl">Phone (AR)</div><a class="c-val" href="tel:+5402616632654">+54 261 663 2654</a></div>
+<div><div class="c-lbl">Phone (AND)</div><a class="c-val" href="tel:+376347270">+376 347270</a></div>
+</div>
+</div>
+<div class="contact-right rev-r">
+<div class="contact-cta-label">Get in touch</div>
+<div class="contact-big">The right<br/>person <span>exists.</span></div>
+<div class="cta-links">
+<a class="cta-btn" href="mailto:valentinamelian97@gmail.com">
+<div><div class="cb-lbl">Email</div><div class="cb-val">valentinamelian97@gmail.com</div></div>
+<span class="cb-arr">↗</span>
+</a>
+<a class="cta-btn" href="https://www.linkedin.com/in/valentina-melian-78490b204" target="_blank">
+<div><div class="cb-lbl">LinkedIn</div><div class="cb-val">Valentina Melian — connect with me</div></div>
+<span class="cb-arr">↗</span>
+</a>
+<a class="cta-btn" href="https://www.behance.net/valentinamelian4" target="_blank">
+<div><div class="cb-lbl">Portfolio</div><div class="cb-val">Behance · More work samples</div></div>
+<span class="cb-arr">↗</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ═══ FOOTER ═══ -->
+<footer>
+<span class="footer-name">
+<svg fill="none" height="12" style="display:inline;margin-right:.3rem;" viewbox="0 0 12 12" width="12"><path d="M6 .5L7 4.5 11.5 3.5 8 6 11.5 8.5 7 7.5 6 11.5 5 7.5 .5 8.5 4 6 .5 3.5 5 4.5Z" fill="#E8A0FF"></path></svg>
+    Valentina Melián © 2026
+  </span>
+<ul class="footer-links">
+<li><a href="https://www.behance.net/valentinamelian4" target="_blank">Behance</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</footer>
+
+<script src="js/main.js"></script></body>
+</html>
